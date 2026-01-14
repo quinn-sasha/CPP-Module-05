@@ -1,5 +1,5 @@
-#ifndef EX00_BUREAUCRAT_HPP_
-#define EX00_BUREAUCRAT_HPP_
+#ifndef EX01_BUREAUCRAT_HPP_
+#define EX01_BUREAUCRAT_HPP_
 
 #include <iostream>
 #include <string>
@@ -41,4 +41,4 @@ class Bureaucrat {
 
 std::ostream& operator<<(std::ostream& os, const Bureaucrat& bureaucrat);
 
-#endif  // EX00_BUREAUCRAT_HPP_
+#endif  // EX01_BUREAUCRAT_HPP_
