@@ -1,5 +1,6 @@
 #include "Form.hpp"
 
+#include <string>
 #include "Bureaucrat.hpp"
 
 Form::Form(const std::string& title, int min_grade_to_sign,

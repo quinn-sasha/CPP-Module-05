@@ -21,6 +21,7 @@ int main() {
   Bureaucrat tanaka("Tanaka", 100);
   std::cout << himiko << "\n";
   std::cout << tanaka << "\n";
+  tanaka.signForm(tax_plan);  // Too low grade
   himiko.signForm(tax_plan);
-  tanaka.signForm(tax_plan);
+  himiko.signForm(tax_plan);  // Already signed
 }
