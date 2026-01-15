@@ -25,7 +25,7 @@ RobotomyRequestForm& RobotomyRequestForm::operator=(
   return *this;
 }
 
-RobotomyRequestForm::~RobotomyRequestForm() {};
+RobotomyRequestForm::~RobotomyRequestForm() {}
 
 // Need to call srand() in main()
 void RobotomyRequestForm::executeAction() const {

@@ -1,6 +1,7 @@
 #include "Bureaucrat.hpp"
 
 #include <iostream>
+#include <string>
 
 #include "AForm.hpp"
 

@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <ctime>
+
 #include "Bureaucrat.hpp"
 #include "PresidentialPardonForm.hpp"
 #include "RobotomyRequestForm.hpp"

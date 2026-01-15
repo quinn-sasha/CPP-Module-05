@@ -27,7 +27,8 @@ ShrubberyCreationForm& ShrubberyCreationForm::operator=(
 ShrubberyCreationForm::~ShrubberyCreationForm() {}
 
 void ShrubberyCreationForm::executeAction() const {
-  std::ofstream outfile(target_ + "_shrubbery",
+  std::string filename(target_ + "_shrubbery");
+  std::ofstream outfile(filename.c_str(),
                         std::ios::out | std::ios::trunc);
   if (!outfile.is_open()) {
     std::cerr << "Couldn't open file" << "\n";

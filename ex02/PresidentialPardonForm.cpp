@@ -1,5 +1,8 @@
 #include "PresidentialPardonForm.hpp"
 
+#include <iostream>
+#include <string>
+
 #include "AForm.hpp"
 
 PresidentialPardonForm::PresidentialPardonForm(const std::string& target)
@@ -21,7 +24,7 @@ PresidentialPardonForm& PresidentialPardonForm::operator=(
   return *this;
 }
 
-PresidentialPardonForm::~PresidentialPardonForm() {};
+PresidentialPardonForm::~PresidentialPardonForm() {}
 
 void PresidentialPardonForm::executeAction() const {
   std::cout << "(Trump) You are free now. God bless America!\n";
