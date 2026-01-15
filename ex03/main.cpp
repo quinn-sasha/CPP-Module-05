@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <ctime>
+
 #include "AForm.hpp"
 #include "Bureaucrat.hpp"
 #include "Intern.hpp"

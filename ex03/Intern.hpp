@@ -1,5 +1,5 @@
-#ifndef EX02_INTERN_HPP
-#define EX02_INTERN_HPP
+#ifndef EX03_INTERN_HPP_
+#define EX03_INTERN_HPP_
 
 #include <string>
 
@@ -16,4 +16,4 @@ class Intern {
                   const std::string& form_target) const;
 };
 
-#endif  // EX02_INTERN_HPP
+#endif  // EX03_INTERN_HPP_

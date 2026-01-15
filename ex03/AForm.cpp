@@ -1,5 +1,7 @@
 #include "AForm.hpp"
 
+#include <string>
+
 #include "Bureaucrat.hpp"
 
 AForm::AForm(const std::string& title, int min_grade_to_sign,
