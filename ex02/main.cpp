@@ -4,6 +4,8 @@
 #include "ShrubberyCreationForm.hpp"
 
 int main() {
+  std::srand(std::time(NULL));  // For executing robotomy form
+
   Bureaucrat himiko("Himiko", 2);
   Bureaucrat tanaka("Tanaka Tarou", 100);
 
